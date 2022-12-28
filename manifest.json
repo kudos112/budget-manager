@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Budget Manager",
+  "version": "1.0",
+  "description": "My second extension and it is a Budget Manager",
+  "icons": {
+    "16": "dollar16.png",
+    "128": "dollar128.png"
+  },
+  "action": {
+    "id": "budget",
+    "default_title": "Budget Manager",
+    "default_icon": {
+      "16": "dollar16.png",
+      "128": "dollar128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
